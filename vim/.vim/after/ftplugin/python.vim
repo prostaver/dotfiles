@@ -1,9 +1,8 @@
 set tabstop=4 shiftwidth=4 softtabstop=4 expandtab autoindent smartindent
-setlocal colorcolumn=80
 
+setlocal colorcolumn=80
 setlocal path=.,**,src/**
 " setlocal wildignore=*.pyc,*/__pycache__/*,*/env/*,*/venv/*,*/.env/*,*/.venv/*
-
 " set include=^\\s*\\(from\\\|import\\)\\s*\\zs\\(\\S\\+\\s\\{-}\\)*\\ze\\(\\S\\+\\s\\{-}\\)*\\ze\\($\\\|\ as\\)
 " function! PyInclude(fname)
 "     let parts = split(a:fname, ' import ')

@@ -2,6 +2,7 @@
 filetype plugin indent on
 syntax on
 
+set tabstop=4 shiftwidth=4 softtabstop=4 expandtab autoindent smartindent
 set backspace=start,eol,indent
 set belloff=all
 set path=.,**
@@ -11,6 +12,7 @@ set number
 set relativenumber
 set wildmenu
 set showmatch
+set splitright
 
 set t_Co=256
 

@@ -1,3 +1,6 @@
 [submodule "submodules/coc.nvim"]
 	path = submodules/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
+[submodule "submodules/vim-commentary"]
+	path = submodules/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git

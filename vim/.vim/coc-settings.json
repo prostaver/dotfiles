@@ -1,8 +1,13 @@
 {
   // general
-  "coc.preferences.formatOnType": true,
   "coc.preferences.formatOnSave": true,
-  "coc.preferences.formatOnSaveFileTypes": ["javascript", "typescript", "css"],
+  "coc.preferences.formatOnSaveTimeout": 5000,
+
+  // pyright
+  "pyright.disableDiagnostics": true,
+
+  // mypy
+  "python.linting.mypyEnabled": true,
 
   // python flake8
   "python.linting.flake8Enabled": true,
@@ -10,10 +15,7 @@
 
   // python black
   "python.formatting.provider": "black",
-  "python.formatting.blackArgs": [
-    "--line-length=79",
-    "--experimental-string-processing"
-  ],
+  "python.formatting.blackArgs": ["--line-length=79", "--preview"],
 
   // tsserver
   "tsserver.log": "normal",

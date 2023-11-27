@@ -23,12 +23,7 @@ highlight CursorLineNr ctermbg=Gray cterm=none
 highlight EndOfBuffer ctermbg=none
 highlight Normal guibg=DarkGray ctermbg=none
  
- 
 let g:netrw_liststyle=3
-
-
-nnoremap q <c-v>
-
 
 autocmd FileType json syntax match Comment +\/\/.\+$+
 

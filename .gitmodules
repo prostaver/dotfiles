@@ -7,3 +7,6 @@
 [submodule "submodules/vim-godot"]
 	path = submodules/vim-godot
 	url = https://github.com/habamax/vim-godot.git
+[submodule "submodules/vim-lsp"]
+	path = submodules/vim-lsp
+	url = https://github.com/prabirshrestha/vim-lsp.git

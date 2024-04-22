@@ -4,3 +4,6 @@
 [submodule "submodules/vim-commentary"]
 	path = submodules/vim-commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "submodules/vim-godot"]
+	path = submodules/vim-godot
+	url = https://github.com/habamax/vim-godot.git

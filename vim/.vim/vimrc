@@ -17,11 +17,11 @@ set splitright
 set t_Co=256
 
 set so=999
-set cursorline
-highlight CursorLine ctermbg=Gray cterm=none
-highlight CursorLineNr ctermbg=Gray cterm=none
-highlight EndOfBuffer ctermbg=none
-highlight Normal guibg=DarkGray ctermbg=none
+" set cursorline
+" highlight CursorLine ctermbg=Grey cterm=none
+" highlight CursorLineNr ctermbg=Grey cterm=none
+" highlight EndOfBuffer ctermbg=none
+" highlight Normal guibg=DarkGray ctermbg=none
  
 let g:netrw_liststyle=3
 

@@ -9,13 +9,21 @@
   // mypy
   "python.linting.mypyEnabled": true,
 
-  // python flake8
-  "python.linting.flake8Enabled": true,
-  "python.linting.flake8Args": ["--max-line-length=79"],
+  // ruff
+  "ruff.autoFixOnSave": true,
+  "ruff.lineLength": 79,
+  // "ruff.lint.args": [
+  //     "max-line-length=79"
+  // ],
+  "ruff.format.args": ["line-length", "79"],
 
-  // python black
-  "python.formatting.provider": "black",
-  "python.formatting.blackArgs": ["--line-length=79", "--preview"],
+  // python flake8
+  // "python.linting.flake8Enabled": true,
+  // "python.linting.flake8Args": ["--max-line-length=79"],
+
+  // python formatting
+  "python.formatting.provider": "none",
+  // "python.formatting.blackArgs": ["--line-length=79", "--preview"],
 
   // tsserver
   "tsserver.log": "normal",

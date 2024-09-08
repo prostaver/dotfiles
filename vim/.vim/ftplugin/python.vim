@@ -9,3 +9,17 @@ nnoremap <F5> :!python %<CR>
 
 setlocal path=.,**
 setlocal wildignore=*.pyc,*/__pycache__/*,*/env/*,*/venv/*,*/.env/*,*/.venv/*
+set autoread
+
+let g:lsp_settings = {
+            \    'pylsp-all': {
+            \        'workspace_config': {
+            \            'pylsp': {
+            \                'configurationSources': ['ruff']
+            \            }
+            \        }
+            \    }
+            \}
+
+autocmd! BufWritePost * silent! !ruff format <afile>
+autocmd BufWritePost * redraw!
